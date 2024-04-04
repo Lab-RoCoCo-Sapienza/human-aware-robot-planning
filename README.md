@@ -37,7 +37,7 @@ pip install openai --upgrade
 pip install sentencepiece
 pip install chardet
 ```
-Install LTL2DFA
+Install LTLf2DFA
 ```
 pip install ltlf2dfa
 ```
