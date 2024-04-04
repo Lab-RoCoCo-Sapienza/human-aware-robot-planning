@@ -111,9 +111,9 @@ To obtain the policy, first it is necessary to remove "or" preconditions from th
 E.g.:
 ```
 (:action trans-1
-		:parameters (?l-00 - location)
-		:precondition (and (or (and (q1 ?l-00) (cleared ?l-00)) (q2 ?l-00)) (not (turnDomain)))
-		:effect (and (q2 ?l-00) (not (q1 ?l-00)) (turnDomain))
+  :parameters (?l-00 - location)
+  :precondition (and (or (and (q1 ?l-00) (cleared ?l-00)) (q2 ?l-00)) (not (turnDomain)))
+  :effect (and (q2 ?l-00) (not (q1 ?l-00)) (turnDomain))
 )
 ```
 should become:
